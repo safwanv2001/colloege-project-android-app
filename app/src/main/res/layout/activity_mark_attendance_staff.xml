@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg8"
+    android:gravity="center"
+
+    android:orientation="vertical"
+    tools:context=".mark_attendance_staff">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="15dp">
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Subject"
+            android:textColor="#2E2E2E"
+            android:textColorHint="#292929"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="38dp">
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="112dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Hour"
+            android:textColor="#3A3939"
+            android:textColorHint="#171717"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button27"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="submit" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/viiewmarkedattendance"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableRow>
+</LinearLayout>

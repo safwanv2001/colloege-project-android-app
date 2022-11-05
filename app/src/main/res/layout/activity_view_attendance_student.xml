@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg8"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".view_attendance_student">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:shadowColor="#5E5D5D"
+            android:shadowDx="-5"
+            android:shadowDy="8"
+            android:shadowRadius="10"
+            android:text="BUFFYBOT"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#FFFEFE"
+            android:textSize="48sp"
+            android:visibility="visible" />
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="153dp"
+            android:layout_height="45dp"
+            android:gravity="center"
+            android:text="Month"
+            android:textColor="#090909"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/spinner8"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Search" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="205dp"
+            android:layout_height="45dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="7dp"
+            android:text="Total working hours"
+            android:textColor="#0B0B0B"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="176dp"
+            android:layout_height="match_parent" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="205dp"
+            android:layout_height="45dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="7dp"
+            android:text="Total present hours"
+            android:textColor="#131313"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView52"
+            android:layout_width="176dp"
+            android:layout_height="match_parent" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="205dp"
+            android:layout_height="45dp"
+            android:paddingLeft="15dp"
+            android:paddingTop="7dp"
+            android:text="Total abscent hours"
+            android:textColor="#090909"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="174dp"
+            android:layout_height="match_parent" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="168dp"
+            android:layout_height="45dp"
+            android:gravity="center|center_vertical"
+            android:text="Percentage"
+            android:textColor="#121111"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="214dp"
+            android:layout_height="45dp"
+            android:gravity="center_vertical" />
+
+    </TableRow>
+</LinearLayout>

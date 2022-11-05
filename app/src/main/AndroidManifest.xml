@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.chatbot">
+
+    <queries>
+        <intent>
+            <action android:name="android.speech.RecognitionService" />
+        </intent>
+    </queries>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/b"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@drawable/b"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Chatbot"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".vooice_search_student"
+            android:exported="false" />
+        <activity
+            android:name=".voice_search"
+            android:exported="false" />
+        <activity
+            android:name=".custom44"
+            android:exported="false" />
+        <activity
+            android:name=".mark_attendance_staff"
+            android:exported="false" />
+        <activity
+            android:name=".custom4"
+            android:exported="false" />
+        <activity
+            android:name=".custom2"
+            android:exported="false" />
+        <activity
+            android:name=".custom3"
+            android:exported="false" />
+        <activity
+            android:name=".Parent_home"
+            android:exported="false" />
+        <activity
+            android:name=".student_home"
+            android:exported="false" />
+        <activity
+            android:name=".view_timetable"
+            android:exported="false" />
+        <activity
+            android:name=".view_mark_staff"
+            android:exported="false" />
+        <activity
+            android:name=".Staff_home"
+            android:exported="false" />
+        <activity
+            android:name=".view_notification_parent"
+            android:exported="false" />
+        <activity
+            android:name=".view_mark_parent"
+            android:exported="false" />
+        <activity
+            android:name=".view_attendance_parent"
+            android:exported="false" />
+        <activity
+            android:name=".view_timetable_student"
+            android:exported="false" />
+        <activity
+            android:name=".view_notification_student"
+            android:exported="false" />
+        <activity
+            android:name=".Upload_report_student"
+            android:exported="false" />
+        <activity
+            android:name=".view_work_student"
+            android:exported="false" />
+        <activity
+            android:name=".view_marks_student"
+            android:exported="false" />
+        <activity
+            android:name=".view_attendance_student"
+            android:exported="false" />
+        <activity
+            android:name=".View_attendance"
+            android:exported="false" />
+        <activity
+            android:name=".view_work_report"
+            android:exported="false" />
+        <activity
+            android:name=".view_allocated_subject"
+            android:exported="false" />
+        <activity
+            android:name=".View_work_allocated"
+            android:exported="false" />
+        <activity
+            android:name=".Add_work_student"
+            android:exported="false" />
+        <activity
+            android:name=".ipset"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".Notify" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

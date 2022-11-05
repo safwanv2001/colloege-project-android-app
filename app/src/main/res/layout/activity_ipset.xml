@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/bg8"
+
+    tools:context=".ipset">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:shadowColor="#7A7A7A"
+            android:shadowDx="-5"
+            android:shadowDy="8"
+            android:shadowRadius="10"
+            android:text="BUFFYBOT"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="#EDE7E7"
+            android:textSize="48sp"
+            android:textStyle="normal"
+            android:visibility="visible" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0179AF"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Ip address"
+            android:inputType="textPersonName"
+            android:shadowColor="#575353"
+            android:textColorHighlight="#00D1EC"
+            android:textColorHint="#4A4848"
+            android:textColorLink="#3A3939"
+            android:textStyle="italic" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:gravity="center|top">
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="submit"
+            android:textColor="#FFFAFA"
+            android:textColorHighlight="#771D1D"
+            android:textColorHint="#C65050"
+            app:iconTint="#2196F3"
+            app:rippleColor="#2F7CB8" />
+    </TableRow>
+
+</LinearLayout>
